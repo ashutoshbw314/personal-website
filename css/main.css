@@ -1,0 +1,236 @@
+/*** Utility classes ***/
+.font-condensed {
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+.highlight {
+  color: rebeccapurple; 
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.full-width {
+  clear: both;
+}
+
+.profile-pic {
+  height: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.small {
+  font-size: 1.2em;
+}
+
+.m-large {
+  font-size: 2em;
+}
+
+.x-large {
+  font-size: 3em;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.btn {
+  box-shadow: 1px 4px 10px 0px rgba(168, 92, 191, 0.9);
+  background-image: linear-gradient(45deg, rebeccapurple, hotpink);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 13px 20px;
+  border-radius: 6px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.btn > div {
+  float: left;
+}
+
+.download-icon {
+  background-image: url("../icons/download.png");
+  background-repeat: no-repeat;
+  background-size: 17px;
+  width: 22px;
+  height: 25px; 
+}
+
+/*** Reset ***/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/*** Main ***/
+body {
+  font-family: 'Asap', sans-serif;
+  color: #333;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  height: 1000px;
+}
+
+.navbar {
+  float: right;
+  padding: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.navbar a {
+  margin-left: 2em;
+}
+
+section {
+  height: 400px;
+}
+
+.narrow-part {
+  width: 45%;   
+  float: left;
+  height: 100%;
+}
+
+.wide-part {
+  width: 55%;   
+  float: left;
+  height: 100%;
+}
+
+.work {
+  width: 24%;
+  background: white;
+  float: left;
+  margin-left: 2.5%;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 1px 4px 10px 0px rgba(168, 92, 191, 0.3);
+}
+
+.work:first-child {
+  margin-left: 8.5%;
+}
+
+.work img {
+  width: 100%;
+  box-shadow: 1px 4px 10px 0px rgba(168, 92, 191, 0.2);
+}
+
+.posts {
+  margin: 0 auto 10px;
+  width: 90%;
+}
+
+.post {
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 1px 4px 10px 0px rgba(168, 92, 191, 0.2);
+}
+
+.post p {
+  margin: 10px 0;
+}
+
+#propic2 {
+  margin-top: -30px;
+}
+
+#about-part {
+  margin-top: 50px;
+}
+
+#btn-hire-me {
+  width: 100px;
+}
+
+#btn-download-cv {
+  background-image: linear-gradient(45deg, tomato, rebeccapurple);
+  width: 150px;
+  padding-left: 40px;
+}
+
+
+#latest-works {
+  background: #f7f7f7;
+  height: 600px;
+}
+
+#latest-works h2, #pop-articles h2 {
+  padding: 90px 0;
+}
+
+#latest-works h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#latest-works p {
+  margin: 0;
+}
+
+#pop-articles {
+  height: 600px;
+}
+
+#contacts {
+  height: 380px;
+  padding-top: 80px;
+}
+
+#inquiry-banner {
+  background-image: url("../images/rect-inquiry-bg.png");
+  background-size: cover;
+  margin: 0 auto 70px;
+  width: 70%;
+  height: 170px;
+  border-radius: 20px;
+}
+
+#inquiry-banner .title {
+  float: left;
+  width: 50%;
+  height: 70px;
+  margin-top: 58px;
+  margin-left: 60px;
+  font-weight: bold;
+  color: #f6f6f6;
+}
+
+#inquiry-banner .btn {
+  float: right;
+  margin-right: 60px;
+  margin-top: 60px;
+  width: 80px;
+}
+
+#social-icons {
+  text-align: center;
+  margin-top: 8px;
+}
+
+#social-icons img {
+  width: 30px;
+  padding: 0 5px;
+}
