@@ -191,12 +191,13 @@ section {
 }
 
 #pop-articles {
-  height: 600px;
+  height: 650px;
 }
 
 #contacts {
   height: 380px;
   padding-top: 80px;
+  background: #f7f7f7;
 }
 
 #inquiry-banner {
